@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Roboto', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 50px 0px;
+}
+header{display: flex;justify-content: space-between;padding: 20px 150px;background: #000000bd;align-items: center;}
+.conainer{
+
+}
+h1{font-size: 23px;color: #fff;}
+.navbar1 a
+{color: #fff;}
+.navbar1 a{
+	text-decoration: none;
+	margin-right: 10px;
+}
+.navbar1 a:hover{
+	color: #ed563b ; 
+}
+.su{background: #ed563b;color: #fff;padding: 10px;border: none;}
+main{
+
+}
+.background-clip{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    height: 712px;
+    width: 100%;
+    margin-top: -250px;
+}
+.one{
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	padding: 200px 0px;
+	font-weight: 600;
+	background-color: rgba(0,0,0,0.4);
+	height: 259px;
+}
+.red{color: #ed563b;}
+h2{font-size: 45px;padding: 20px 0px;}
+.bam{background-color: #ed563b;color: #fff;padding: 10px;border: none;margin-top: 20px;}
+.second{
+    padding: 50px 150px;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+}
+.lines{padding: 25px 0px;}
+.cp{display: flex;flex-direction: column;height: 480px;flex-wrap: wrap;text-align: start;}
+.program{display: flex;padding: 30px 0px;align-items: flex-start;width: 500px;}
+.ficon{
+
+}
+h4{
+	font-size: 20px;
+	color: #000;
+}
+.feature{
+
+}
+.feature{
+    color: gray;line-height: 25px;
+    margin-left: 20px;
+}
+.three{
+    background:url(assets/cta-bg.jpg);
+    text-align: center;
+    padding: 80px 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: #fff;
+    align-content: stretch;}
+h5{
+	color: #fff;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+video
+{
+
+}
+.four{
+    text-align: center;
+    padding: 75px 150px;}
+.oc{display: flex;}
+.tabs{width: 300px;display: flex;flex-direction: column;align-items: center;}
+.tab{
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	padding: 15px 40px 15px 15px;
+	background: #ebebeb;
+	border: 2px solid #ebebeb;
+	border-radius: 3px;
+	margin: 15px 0px;
+	box-shadow: 0px 0px 2px 3px #d4cdcd;
+	font-weight: 700;
+}
+h6{
+	color: black;
+	font-size: 25px;
+	margin: 15px 0px;
+}
+.vs{
+	border: none;
+	background: #ed563b;
+	color: #fff;
+	padding: 13px;
+	margin: 17px 0px;
+}
+.tab a {
+
+}
+.tab a:hover{
+
+}
+.tabimg{padding-right: 15px;}
+.vas{border: none;background: #ed563b;color: #fff;font-size: 18px;width: 265px;padding: 20px;border-radius: 3px;}
+.sched{text-align: start;width: 730px;color: darkgray;margin-top: 13px;margin-left: 41px;}
+.tr1{height: 246px;}
+.schedule{text-align: center;padding: 50px 150px;
+    background:url(assets/schedule-bg.jpg);
+    color: #fff;}
+.week{
+
+}
+nav a:hover{
+	color:#ed563b;
+}
+table{
+    
+}
+td{
+    
+width: 150px;
+    
+border: 1px solid;
+    
+padding: 40px;
+    
+text-transform: capitalize;
+}
+.trainers{text-align: center;padding: 75px 150px;}
+.et{display: flex;}
+.trainer{width: 230px;text-align: start;align-content: center;padding: 30px 20px 20px 27px;margin-left: 36px;background: #e8e8e894;border-radius: 14px;color: gray;}
+.trainerimg{width: 226px;margin-bottom: 20px;}
+.h1{margin: 10px 0px;}
+.icons{word-spacing: 8px;margin: 20px 0px;color: black;}
+.address{
+	display: flex;
+}
+.map{width: 50%;}
+.CONTACT{width: 632px;height: 452px;background:url(assets/contact-bg.jpg);}
+form{width: 80%;background: #fff;margin: 47px 38px 0px 38px;padding: 25px;border-radius: 7px;}
+.subject{
+	width: 463px;
+	margin: 20px 0px;
+}
+input{width: 43%;padding: 10px;display: inline-block;}
+textarea{width: 466px;padding: 10px;height: 100px;}
+.sm{color: #fff;background: #ed563b;border: none;padding: 14px;margin-top: 15px;}
+footer{
+    text-align: center;
+    padding: 30px 0px;
+}
